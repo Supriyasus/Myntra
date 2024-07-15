@@ -1,0 +1,45 @@
+.filters-container {
+    width: 250px;
+    border: 1px solid #e0e0e0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .filters-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  
+  .filters-header h2 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .clear-all {
+    background: none;
+    border: none;
+    color: #ff3e6c;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .filter-item {
+    padding: 15px;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  
+  .filter-label {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .expand-icon {
+    font-size: 12px;
+    color: #888;
+  }
